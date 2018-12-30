@@ -41,7 +41,7 @@ class CDPChecker {
 
   /**
    * get the CDP for id that is set
-   * @sets this.cdp
+   * @sets {CDP} this.cdp
    * @see https://makerdao.com/documentation/#getCdp
    */
   async getCdp() {
@@ -50,7 +50,7 @@ class CDPChecker {
 
   /**
    * get the Debt Value for the set CDP.
-   * @sets this.debtValue
+   * @sets {BigNumber} this.debtValue
    * @see https://makerdao.com/documentation/#getDebtValue
    */
   async getDebtValue() {
@@ -59,7 +59,7 @@ class CDPChecker {
 
   /**
    * get the Governance Fee
-   * @sets this.governanceFee
+   * @sets {BigNumber} this.governanceFee
    * @see https://makerdao.com/documentation/#getGovernanceFee
    */
   async getGovernanceFee() {
@@ -68,7 +68,7 @@ class CDPChecker {
 
   /**
    * get the CollateralizationRatio
-   * @sets this.collateralizationRatio
+   * @sets {number} this.collateralizationRatio
    * @see https://makerdao.com/documentation/#getCollateralizationRatio
    */
   async getCollateralizationRatio() {
@@ -77,7 +77,7 @@ class CDPChecker {
 
   /**
    * get the Liquidation Price
-   * @sets this.liquidationPrice
+   * @sets {number} this.liquidationPrice
    * @see https://makerdao.com/documentation/#getLiquidationPrice
    */
   async getLiquidationPrice() {
@@ -86,7 +86,7 @@ class CDPChecker {
 
   /**
    * get the Collateral Value
-   * @sets this.collateralValue
+   * @sets {BigNumber} this.collateralValue
    * @see https://makerdao.com/documentation/#getCollateralValue
    */
   async getCollateralValue() {
