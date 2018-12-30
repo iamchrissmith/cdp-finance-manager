@@ -8,6 +8,7 @@ This repo represents functionality to be deployed to a serverless environment an
 
 Initial functionality:
 [X] Check CDP status
+[X] Check Maker Price service
 [ ] Check Compound.finance position status
 [ ] Withdraw Dai from Compound.finance and send back to CDP to protect against a ETH price drop
 [ ] Withdraw Dai from CDP and supply to Compound.finance when ETH price increases
