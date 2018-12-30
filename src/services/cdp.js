@@ -33,7 +33,7 @@ module.exports = class CDPChecker {
   async getDebtValue() {
     this.debtValue = await this.cdp.getDebtValue();
   }
-  
+
   async getGovernanceFee() {
     this.governanceFee = await this.cdp.getGovernanceFee();
   }

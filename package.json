@@ -4,8 +4,14 @@
   "description": "manage cdp + compound.finance assets",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "start": "node index.js"
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverage",
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "restoreMocks": true
   },
   "repository": {
     "type": "git",
@@ -27,5 +33,12 @@
   "homepage": "https://github.com/iamchrissmith/cdp-finance-manager#readme",
   "dependencies": {
     "@makerdao/dai": "^0.9.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-google": "^0.11.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "jest": "^23.6.0"
   }
 }
