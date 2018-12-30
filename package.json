@@ -1,0 +1,27 @@
+{
+  "name": "cdp-finance-manager",
+  "version": "1.0.0",
+  "description": "manage cdp + compound.finance assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamchrissmith/cdp-finance-manager.git"
+  },
+  "keywords": [
+    "ethereum",
+    "cdp",
+    "compound.finance",
+    "dai",
+    "maker",
+    "ether"
+  ],
+  "author": "Chris Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamchrissmith/cdp-finance-manager/issues"
+  },
+  "homepage": "https://github.com/iamchrissmith/cdp-finance-manager#readme"
+}
